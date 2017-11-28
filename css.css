@@ -1,0 +1,58 @@
+.form-columns-1 {
+  padding-top: 3% !important
+}
+
+.form-columns-2 {
+  max-width: 100% !important;
+}
+
+.form-columns-2, .form-intro {
+  margin-bottom: 10px !important;
+}
+
+.form-columns-2 .hs-input {
+  height: 50px;
+  line-height: 50px;
+  width: 90%;
+  padding-left: 15px;
+  border: 1px solid #ABABAB;
+  padding: 0 20px;
+  color: #000;
+}
+
+.hs-button.primary.large {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  background: #f07d00;
+  border: 0px transparent;
+  border-radius: 0px;
+  color: #fff;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.22);
+}
+
+.hs-button.primary.large:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  transition: .5s ease-out;
+  cursor: pointer;
+}
+
+.actions {
+  padding-top: 2%;
+}
+
+.hs-form-required {
+  display: none;
+}
+
+.hs_recaptcha {
+  padding-top: 2%
+}
+
+.inputs-list {
+  margin-bottom: 0px;
+  list-style-type: none;
+  margin-left: -3%;
+}
