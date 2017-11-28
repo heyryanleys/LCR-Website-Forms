@@ -3,13 +3,12 @@
     var hsContactUs = document.getElementsByClassName('HS-ContactUs');
     var hsNewsletter = document.getElementsByClassName('HS-Newsletter');
     if (hsEbook.length > 0 && $('.hs-button').is(':visible')) {
-      $('input[type=radio]').click(function(){
+      $('input[type=radio]').click(function() {
         if ($('input[value=eBook]').prop("checked")) {
           $('.HS-eBook').find('.hs-button').attr({
             onclick: "dataLayer.push({ 'event' :  'trackEvent', 'eventCategory' : 'Ebook', 'eventAction' : 'Download', 'eventLabel' : '#CTA-btn ebook download now' })",
           });
-        }
-        else if ($('input[value=Summary]').prop("checked")) {
+        } else if ($('input[value=Summary]').prop("checked")) {
           $('.HS-eBook').find('.hs-button').attr({
             onclick: "dataLayer.push({ 'event' :  'trackEvent', 'eventCategory' : 'Whitepaper', 'eventAction' : 'Download', 'eventLabel' : '#CTA-btn summary download now' })",
           });
